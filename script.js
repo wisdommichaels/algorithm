@@ -46,3 +46,27 @@ function analyzeSentence(sentence) {
 // Example usage:
 let sentence = "My name is Wisdom, i am a GoMyCoder.";
 analyzeSentence(sentence);
+
+
+
+
+
+// let a = 10
+// let b =12
+
+// //Method 1
+// // let c=a
+// // let d = b
+// // a = d
+// // b = c
+
+
+// //Method 2
+// // let c =a
+// // a=b
+// // b=c
+
+// // Method 3
+// a=a+b //a=22 b=12
+// b=a-b    //a=22 b=10
+// a=a-b   //a=12 b=10
