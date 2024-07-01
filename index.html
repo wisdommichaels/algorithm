@@ -1,0 +1,39 @@
+<!-- Initialize Counters:
+
+length = 0
+wordCount = 0
+vowelCount = 0
+Set of Vowels:
+
+Define a string containing all vowels: vowels = "aeiouAEIOU"
+Initialize Word Tracking:
+
+inWord = false (This will track if we are currently in a word)
+Iterate Through Each Character:
+
+For each character char in the sentence:
+Increment length by 1.
+
+If char is in vowels, increment vowelCount by 1.
+
+If char is a space (' '):
+
+If inWord is true:
+
+Increment wordCount by 1.
+
+Set inWord to false.
+
+Else:
+Set inWord to true.
+
+Adjust for Final Word:
+
+After the loop, if inWord is true, increment wordCount by 1 (to count the last word).
+
+Adjust Length for Final Period:
+
+Decrement length by 1 to exclude the final period.
+Output the Results:
+
+Print length, wordCount, and vowelCount. -->
